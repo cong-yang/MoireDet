@@ -1,7 +1,7 @@
 # MoireScape*
 
 Our proposed MoireScape dataset contains two subsets:
- - MoireScape-real: It contains 500 real image pairs for evaluating moiré edge map estimation. Each pair includes a real camera-captured screen image and its moiré edge map with the setup in Fig. 3. 
+ - MoireScape-real: It contains 500 real image pairs for evaluating moiré edge map estimation. Each pair includes a real camera-captured screen image and its moiré layer with the setup in Fig. 3. To extract moire edge map from a moire layer, the more_layer_segmentation tool can be used.
  - MoireScape-synthetic: It contains 50,000 synthetic triplets for the purpose of training (90%) and testing(10%). Each triplet contains a natural image, a moiré layer, and their synthetic mixture.
 
 *: Since each subset surpass 25M, please download them via the online disc link in each text file. 
