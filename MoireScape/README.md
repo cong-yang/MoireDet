@@ -1,1 +1,21 @@
-11111
+# MoireScape*
+
+Our proposed MoireScape dataset contains two subsets:
+ - MoireScape-real: It contains 500 real image pairs for evaluating moiré edge map estimation. Each pair includes a real camera-captured screen image and its moiré edge map with the setup in Fig. 3. 
+ - MoireScape-synthetic: It contains 50,000 synthetic triplets for the purpose of training (90%) and testing(10%). Each triplet contains a natural image, a moiré layer, and their synthetic mixture.
+
+*: Since each subset surpass 25M, please download them via the online disc link in each text file. 
+ 
+## Citation
+
+If you benefit from this work, please cite the mentioned and our paper:
+
+	@article{Yang2023Moire,
+		author = {Cong Yang and Zhenyu Yang and Yan Ke and Tao Chen and Marcin Grzegorzek and John See},
+		title = {Doing More With Moiré Pattern Detection in Digital Photos},
+		journal = {IEEE Transactions on Image Processing},
+            volume = {32},
+            pages = {694-708},
+            year = {2023}
+	}
+
