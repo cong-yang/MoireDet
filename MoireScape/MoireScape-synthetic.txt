@@ -12,5 +12,5 @@ Code: 1234
 
 
 1. current version: v1.0
-2. You may employ the moirelayer.py in more_layer_segmentation foler to extract moire edge map from a moire layer.
+2. You may employ the moirelayer.py in more_layer_segmentation folder to extract moire edge map from a moire layer.
 3. The dataset is protected by the MIT license, please cite our paper.
