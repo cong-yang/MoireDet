@@ -1,1 +1,16 @@
+MoireScape-synthetic contains 4,000 natural images, 18,147 different moiré layers, and finally 50,000 synthetic triplets after their multiplication.
 
+1. 4,000 natural images:
+
+Download link: https://pan.baidu.com/s/19Ui2wmvE65AE-AuxrINmwA?pwd=1234 
+Code: 1234
+
+2. 18,147 different moiré layers:
+
+
+3. 50,000 synthetic triplets:
+
+
+1. current version: v1.0
+2. You may employ the moirelayer.py in more_layer_segmentation foler to extract moire edge map from a moire layer.
+3. The dataset is protected by the MIT license, please cite our paper.
