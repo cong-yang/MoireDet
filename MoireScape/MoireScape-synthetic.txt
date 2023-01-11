@@ -7,6 +7,31 @@ Code: 1234
 
 2. 18,147 different moiré layers:
 
+Since the folder size is more than 8GB, we split it into 6 zip files: 
+
+layer 1-4000:
+Download link: https://pan.baidu.com/s/1JExFI9-uesMfhgMnr5GWLQ?pwd=1234 
+code: 1234
+
+layer 4001-5500:
+Download link: https://pan.baidu.com/s/1DQM8d9DKouZ5kAGJjA5Meg?pwd=1234 
+code: 1234
+
+layer 5501-7000:
+Download link: https://pan.baidu.com/s/15iHIuIhTwIXRtueWre2jUw?pwd=1234 
+code: 1234
+
+layer 7001-8000:
+Download link: https://pan.baidu.com/s/1MHxaENcc38xQJG9r3T2zrQ?pwd=1234 
+code: 1234
+
+layer 8001-12000:
+Download link: https://pan.baidu.com/s/1Pan--pJcDlklTH_W3KnWMQ?pwd=1234 
+code: 1234
+
+layer 12001-18147:
+Download link: https://pan.baidu.com/s/1TvGisnMfZ-ABQYTRTn4cgg?pwd=1234 
+code: 1234
 
 3. 50,000 synthetic triplets:
 
