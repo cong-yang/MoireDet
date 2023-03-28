@@ -1,0 +1,87 @@
+{
+    "name": "PAN",
+    "checkpoint": "/mnt/data-1/zhenyu.yang/research/moire_weights/TripleBranchWithSpecificConvWithAttention_manyloss_resnet18_FPEM_FFM/PSENet_100_loss0.000000.pth",
+    "out_path":"/home/users/zhenyu.yang/data/output/moire_single_test/11_TripleBranchWithSpecificConvWithAttention",
+    "gpus": [0,1],
+    "data_loader": {
+        "type": "ImageDataset",
+        "args": {
+            "alphabet": "alphabet.npy",
+            "dataset": {
+                "train_data_path": [
+                    [
+                        "E:/zj/dataset/icdar2015/train/train.txt"
+                    ]
+                ],
+                "train_data_ratio": [
+                    1
+                ],
+                "val_data_path": "E:/zj/dataset/icdar2015/test",
+                "input_size": 640,
+                "img_channel": 3,
+                "base_dir": "/home/users/zhenyu.yang/data/research/moire/test",
+                "shrink_ratio": 0.7
+            },
+            "loader": {
+                "validation_split": 0.1,
+                "train_batch_size": 4,
+                "val_batch_size": 4,
+                "shuffle": true,
+                "pin_memory": false,
+                "num_workers": 6
+            }
+        }
+    },
+    "arch": {
+        "type": "PANModel",
+        "model_name": "TripleBranchWithSpecificConvWithAttention",
+        "args": {
+            "backbone": "resnet18",
+            "fpem_repeat": 2,
+            "pretrained": true,
+            "segmentation_head": "FPEM_FFM",
+            "is_dct": false,
+            "is_light": true
+        }
+    },
+    "loss": {
+        "type": "PANLoss",
+        "args": {
+            "alpha": 0.5,
+            "beta": 0.25,
+            "delta_agg": 0.5,
+            "delta_dis": 3,
+            "ohem_ratio": 100
+        }
+    },
+    "optimizer": {
+        "type": "Adam",
+        "args": {
+            "lr": 0.0003,
+            "weight_decay": 0,
+            "amsgrad": true
+        }
+    },
+    "lr_scheduler": {
+        "type": "StepLR",
+        "args": {
+            "step_size": 30,
+            "gamma": 0.1
+        }
+    },
+    "trainer": {
+        "seed": 2,
+        "gpus": [
+            0,1
+        ],
+        "epochs": 100,
+        "display_interval": 10,
+        "show_images_interval": 50,
+        "resume": {
+            "restart_training": true,
+            "checkpoint": ""
+        },
+        "output_dir": "output",
+        "tensorboard": false
+    }
+}
