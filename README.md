@@ -1,5 +1,7 @@
 # MoireDet
-
+cuda:10.0;
+pytorch 1.4;
+torchvision 0.5;
 
 
 # MoireScape*
