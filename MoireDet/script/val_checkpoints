@@ -1,0 +1,6 @@
+"checkpoint": "/home/zhenyu/projects/smoke/script/output/PAN_three_part_specify_layers_00_resnet18_FPEM_FFM/checkpoint/PSENet_99_loss0.002825.pth",
+0.9512893190978814 0.009337462
+
+
+"checkpoint": "/home/zhenyu/projects/smoke/script/output/PAN_three_part_specify_layers_2_resnet18_FPEM_FFM/checkpoint/PSENet_99_loss0.004404.pth",
+0.9116121894474767 0.015432151
