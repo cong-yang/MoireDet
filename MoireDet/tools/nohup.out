@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "data_generate.py", line 103, in <module>
+    pool.join()
+  File "/usr/lib64/python3.6/multiprocessing/pool.py", line 545, in join
+    assert self._state in (CLOSE, TERMINATE)
+AssertionError
