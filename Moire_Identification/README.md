@@ -1,3 +1,7 @@
+# News
+
+ - Link to MoireIDT has been updated (July 11, 2023)
+
 # Datasets
 
 This folder contains four public datasets (with clarified moire and moire-free images for evaluation):
